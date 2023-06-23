@@ -32,5 +32,10 @@ public class calculatorTests extends Calculator {
         assertEquals(100, multiple(10,10));
     }
 
+    @Test
+    public void multipleThreeNumbers(){
+        assertEquals(1000, multiple(10,10,10));
+    }
+
 
 }
